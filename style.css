@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    padding-top: 300px;
+    margin: 1;
+    background-color: azure;
+}
+
+#welcome {
+    background-color: beige;
+    position: static;
+    color: blueviolet;
+    height: 100%;
+    width: 100%;
+}
+
+#t {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#bio {
+    background-color: antiquewhite;
+    color: crimson;
+}
+
+#p1 {
+    font-family: monospace;
+}
+
+#p2 {
+    font-family: serif;
+}
+
+#image {
+    height: 100px;
+    width: 150px;
+}
+
+.menu {
+    color: bisque;
+    font-family: cursive;
+    font-size: 45px;
+    position: absolute;
+    list-style:none;
+    top: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color:darkblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family:'Playfair Display';
+    font-size: 20px;
+}
+.links:hover{
+    color:dodgerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
